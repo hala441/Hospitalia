@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/ic_account_circle"
+            android:title="@string/account" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/settings" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@android:drawable/ic_menu_share"
+            android:title="@string/share" />
+        <item
+            android:id="@+id/nav_rate"
+            android:icon="@android:drawable/star_off"
+            android:title="@string/rate" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:enabled="true"
+            android:icon="@drawable/ic_comments"
+            android:title="@string/feedback"
+            android:visible="true" />
+        <item
+            android:id="@+id/nav_log_out"
+            android:icon="@drawable/ic_sign_out"
+            android:title="Log out" />
+    </group>
+
+</menu>

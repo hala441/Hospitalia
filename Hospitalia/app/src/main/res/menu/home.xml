@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/help"
+        android:orderInCategory="101"
+        android:title="@string/help"
+        android:visible="true" />
+    <item
+        android:id="@+id/Log_out"
+        android:orderInCategory="101"
+        android:title="@string/log_out"
+        android:visible="true" />
+    <item
+        android:id="@+id/exit"
+        android:orderInCategory="101"
+        android:title="@string/exit" />
+</menu>

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.boody_laptop.hospitalia">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="false" />
+
+    <uses-permission
+        android:name="android.permission.BLUETOOTH_PRIVILEGED"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.flash" />
+
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-feature android:name="android.hardware.Camera" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permisson.READ_GSERVICES" />
+    <uses-permission android:name="com.example.mapdemo.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:authorities="${applicationId}.contentprovider"
+        android:icon="@drawable/new_hospitalia_logoonly"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginPatientActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Login2Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".LoginDoctorActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AccountActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Home2Activity"
+            android:label="@string/title_activity_home2"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".FeedBackActivity"
+            android:label="@string/title_activity_feed_back"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".HelpActivity"
+            android:label="@string/title_activity_help"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Settings"
+            android:label="@string/title_activity_settings"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".mapsActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".SearchActivity"
+            android:theme="@style/AppTheme" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".AlarmActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AddReminderActivity"
+            android:label="@string/title_activity_add_reminder"
+            android:parentActivityName=".AlarmActivity"
+            android:theme="@style/AppTheme">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AlarmActivity" />
+        </activity>
+
+        <provider
+            android:name=".data.AlarmReminderProvider"
+            android:authorities="com.example.boody_laptop.hospitalia"
+            android:exported="false" />
+
+        <service
+            android:name=".reminder.ReminderAlarmService"
+            android:exported="false" />
+
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Account2Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".FittnessTracker"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ListExercises"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ViewExercise"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MainYoga"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".SettingsYoga"
+            android:theme="@style/AppTheme" />
+
+        <receiver android:name=".AlarmNotificationReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".DailyTraining"
+            android:theme="@style/AppTheme" />
+
+        <meta-data
+            android:name="DATABASE"
+            android:value="Yoga5.db" />
+        <meta-data
+            android:name="DATABASE2"
+            android:value="Workout.db" />
+        <meta-data
+            android:name="VERSION"
+            android:value="2" />
+        <meta-data
+            android:name="QUERY_LOG"
+            android:value="true" />
+        <meta-data
+            android:name="DOMAIN_PACKAGE_NAME"
+            android:value="com.example.boody_laptop.hospitalia" />
+
+        <activity
+            android:name=".Calender"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MainWorkout"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".DailyTraining2"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".SettingsWorkout"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ListExercises2"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Measurement2Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MeasurementActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".BasicChat"
+            android:theme="@style/AppTheme" />
+
+        <service android:name=".FirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".StatusActivity"
+            android:parentActivityName=".SettingsActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity
+            android:name=".UsersActivity"
+            android:parentActivityName=".BasicChat"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ProfileActivity"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="in.tvac.akshaye.lapitchat_TARGET_NOTIFICATION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ChatActivity"
+            android:parentActivityName=".BasicChat"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".SettingsActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Calender2"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PatientsList"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".EmergencyActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ScanningActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme"></activity>
+
+        <activity
+            android:name=".PeripheralActivity"
+            android:label="@string/title_activity_peripheral"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"
+            android:theme="@style/Theme">
+        </activity>
+
+    </application>
+
+</manifest>

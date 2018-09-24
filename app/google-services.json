@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "240559141484",
+    "firebase_url": "https://hospitalia-bfbc0.firebaseio.com",
+    "project_id": "hospitalia-bfbc0",
+    "storage_bucket": "hospitalia-bfbc0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240559141484:android:af33bd02ec506201",
+        "android_client_info": {
+          "package_name": "com.example.boody_laptop.hospitalia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "240559141484-2b7bt2upvsknaritvem2ml64s8sje5s2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.boody_laptop.hospitalia",
+            "certificate_hash": "d8c56966e8084354d13454837c2fea9bd8828177"
+          }
+        },
+        {
+          "client_id": "240559141484-kfg9nrf957el9bq6qkcgvgb20evdmm5t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmTfWnrt3IqXJTQUES7PpE3rFuXB6Twzs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "240559141484-kfg9nrf957el9bq6qkcgvgb20evdmm5t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

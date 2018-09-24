@@ -1,0 +1,8 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/device_connect" android:title="Connect"
+        app:showAsAction="always"></item>
+    <item android:id="@+id/device_disconnect" android:title="Disconnect" android:visible="false"
+        app:showAsAction="always"></item>
+
+</menu>

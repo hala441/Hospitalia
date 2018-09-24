@@ -1,0 +1,264 @@
+<resources>
+    <string name="app_name">Hospitalia</string>
+    <string name="sign_in">Sign in</string>
+    <string name="or">OR</string>
+    <string name="have_an_account">Have an account?</string>
+    <string name="user_name">User name</string>
+    <string name="password">Password</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="label_data">Data:</string>
+    <string name="label_device_address">Device address:</string>
+    <string name="label_state">State:</string>
+    <string name="no_data">No data</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="title_devices">BLE Device Scan</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+
+    <!-- Menu items -->
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_stop">Stop</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="hello">Hello !!</string>
+    <string name="login">Login</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="area">Area</string>
+    <string name="contact_info">Contact Info</string>
+    <string name="category">Category</string>
+    <string name="bio">Bio</string>
+    <string name="doctor">Doctor</string>
+    <string name="patient">Patient</string>
+    <string name="welcome">Welcome</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="help_and_feedback">Help and Feedback</string>
+    <string name="share">Share</string>
+    <string name="account">Account</string>
+    <string name="tools">Tools</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="settings">Settings</string>
+    <string name="log_out">log out</string>
+    <string name="sign_out">Sign out</string>
+    <string name="feedback">Feedback</string>
+    <string name="help">Help</string>
+    <string name="title_activity_account">Account</string>
+    <string name="exit">Exit</string>
+    <string name="user_name1">User Name</string>
+    <string name="center">Center</string>
+    <string name="readings">Readings</string>
+    <string name="chatbot">Chatbot</string>
+    <string name="rate">Rate</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="title_activity_home">Hospitalia</string>
+
+
+    <string name="title_activity_home2">Hospitalia</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_feed_back">FeedBack</string>
+    <string name="button">Button</string>
+    <string name="your_feedback">Your Feedback</string>
+    <string name="username">Username</string>
+    <string name="name">Name</string>
+    <string name="title_activity_help">Help</string>
+    <string name="submit">Submit</string>
+    <string name="your_problem">Your Problem</string>
+    <string name="android_studio">Android Studio</string>
+    <string name="android_studio_android_com">android.studio@android.com</string>
+    <string name="add_friends"><![CDATA[Add Friends & Doctors]]></string>
+    <string name="textview">TextView</string>
+    <string name="edit">Edit</string>
+    <string name="gender2">Gender</string>
+    <string name="age2">Age</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- ALARM REMINDER  -->
+    <string name="no_cardetails">Click on the button below to begin creating your reminder!</string>
+    <string name="title_activity_add_reminder">Add Reminder</string>
+    <string name="title_activity_edit_reminder">Edit Reminder</string>
+    <string name="title_activity_licenses">Licenses</string>
+
+    <string name="add_reminder">Reminder</string>
+    <string name="details">Details</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="repeat">Repeat</string>
+    <string name="repeat_off">Off</string>
+    <string name="repeat_no">Repetition Interval </string>
+    <string name="repeat_type">Type of Repetitions</string>
+
+    <string name="action_discard_reminder">Discard Reminder</string>
+    <string name="action_save_reminder">Save Reminder</string>
+
+    <string name="editor_activity_title_new_reminder">Add Reminder Details</string>
+    <string name="editor_activity_title_edit_reminder">Edit Reminder</string>
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+
+    <string name="keep_editing">Keep Editing</string>
+    <string name="delete_dialog_msg">Delete this Reminder?</string>
+
+    <string name="delete">Delete</string>
+
+    <string name="editor_delete_reminder_successful">Reminder deleted</string>
+
+    <string name="editor_delete_reminder_failed">Error with deleting reminder</string>
+
+    <string name="editor_insert_reminder_successful">Reminder saved</string>
+
+    <string name="editor_insert_reminder_failed">Error with saving reminder</string>
+
+    <string name="editor_update_reminder_successful">Reminder updated</string>
+
+    <string name="editor_update_reminder_failed">Error with updating reminder</string>
+
+    <string name="reminder_title">AlarmReminder</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    //////////////////Fast BLE//////////////
+    <string name="notifyTitle">Notify</string>
+    <string name="gpsNotifyMsg">BLE exception</string>
+    <string name="setting">setting</string>
+
+    <string name="start_scan">Start Scanning</string>
+    <string name="stop_scan">Stop Scanning</string>
+    <string name="expand_search_settings">Expand search settings</string>
+    <string name="retrieve_search_settings">Retrieve search settings</string>
+    //
+    <string name="connect_fail">connect fail</string>
+    <string name="active_disconnected">active disconnected</string>
+    //
+    <string name="please_open_blue">Please open bluetooth</string>
+    <string name="select_operation_type">Select type</string>
+    //
+    <string name="characteristic">characteristic</string>
+    <string name="data_changed">Data changes：</string>
+    <string name="read">Read</string>
+    <string name="write">Write</string>
+    <string name="open_notification">Open Notification</string>
+    <string name="close_notification">Close Notification</string>
+    <string name="service_list">Service List</string>
+    <string name="characteristic_list">Characteristic List</string>
+    <string name="console">console</string>
+    <string name="name2">Device broadcast name ：</string>
+    <string name="mac">MAC:</string>
+    <string name="service">service</string>
+    <string name="type">service type</string>
+    <string name="scan_setting">Below you can configure the conditions that you need to scan the device, which can be empty</string>
+    <string name="setting_name">Enter a broadcast name for bluetooth devices, separated by english commas</string>
+    <string name="setting_mac">Enter Bluetooth device MAC</string>
+    <string name="setting_uuid">Enter Bluetooth device UUID, separated by commas in English</string>
+    <string name="input_hex">Please enter the Wi-fi name </string>
+    <string name="input_hex2">Please enter the Wi-fi password </string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="enter">Enter</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="default_status">Hi there, I\'m using Lapit Chat App</string>
+    <string name="need_a_new_account">NEED A NEW ACCOUNT ?</string>
+    <string name="display_name">Display Name</string>
+    <string name="email">Email</string>
+
+    <string name="title_activity_peripheral">Peripheral</string>
+
+</resources>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.boody_laptop.myapplicationii.UpdateActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:text="Update Record Form"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textColor="#000"
+        android:background="#fff"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:ems="10"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editName" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textColor="#000"
+        android:background="#fff"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:ems="10"
+        android:layout_below="@+id/editName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editUname" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textColor="#000"
+        android:background="#fff"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:ems="10"
+        android:layout_below="@+id/editUname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editEmail" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textColor="#000"
+        android:background="#fff"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:ems="10"
+        android:layout_below="@+id/editEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editCity" />
+    <!--<EditText-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:textColor="#000"-->
+        <!--android:background="#fff"-->
+        <!--android:inputType="textPersonName"-->
+        <!--android:gravity="center"-->
+        <!--android:ems="10"-->
+        <!--android:layout_below="@+id/editCity"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:id="@+id/editTelephone" />-->
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textColor="#000"
+        android:background="#fff"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:ems="10"
+        android:layout_below="@+id/editCity"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editCategory" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textColor="#000"
+        android:background="#fff"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:ems="10"
+        android:layout_below="@+id/editCategory"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editMobile" />
+    <!--<EditText-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:textColor="#000"-->
+        <!--android:background="#fff"-->
+        <!--android:inputType="textPersonName"-->
+        <!--android:gravity="center"-->
+        <!--android:ems="10"-->
+        <!--android:layout_below="@+id/editMobile"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:id="@+id/editGender" />-->
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textColor="#000"
+            android:background="#fff"
+            android:inputType="textPersonName"
+            android:gravity="center"
+            android:ems="10"
+            android:layout_below="@+id/editMobile"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:id="@+id/editPassword" />
+
+    <Button
+        android:text="Update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/editPassword"
+        android:id="@+id/UpdateButton" />
+</RelativeLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
+
